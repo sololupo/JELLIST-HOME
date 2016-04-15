@@ -176,15 +176,21 @@ a:focus {
 .intro .intro-body .brand-heading {
     
     font-size: 40px;
-    font-weight:400;
-    color:#ff5a60;
+    font-weight: 400;
+    color: #ff5a60;
     font-family:elsie;
 }
 
 .intro .intro-body .intro-text {
     font-size: 26px;
-    color:#fff;
+    color: #fff;
     text-align: center;
+}
+
+.around-title {
+    background-color: rgba(0,0,0,0.7);
+    padding: 90px 30px 30px;
+    
 }
 
 @media(min-width:768px) {
@@ -195,7 +201,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 80px;
-        padding:0;
+        padding: 0;
     }
 
     .intro .intro-body .intro-text {
@@ -218,7 +224,8 @@ a:focus {
     .around-title {
         background-color: rgba(0,0,0,0.7);
         padding: 30px;
-        padding-top: 55px;
+        /*padding-top: 55px;*/
+        margin-top: 55px;
     }
 
 }
@@ -232,11 +239,7 @@ a:focus {
     color: #000;
 }
 
-.around-title {
-    background-color: rgba(0,0,0,0.7);
-    padding: 30px;
-    margin-top: 55px;
-}
+
 
 .under-intro {
     font-weight: 400;
@@ -253,10 +256,10 @@ a:focus {
     height: 50%;
 }
 
-@media(min-width:768px) {
+@media(min-width:500px) {
     .phone-preview {
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
     }
 
     .phone-side-preview {
