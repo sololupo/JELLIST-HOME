@@ -235,6 +235,21 @@ a:focus {
     font-weight: 400;
 }
 
+.phone-preview {
+    float:none;
+    width: 90%;
+    height: 90%;
+}
+
+@media(min-width:768px) {
+    .phone-preview {
+        float: none;
+        width: 50%;
+        height: 50%;
+    }
+
+}
+
 
 .switch {
     color: #fff;
