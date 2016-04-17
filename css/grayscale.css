@@ -63,7 +63,7 @@ a:focus {
 }
 
 .fa {
-    color: #fff;
+    color: #000;
 }
 
 .light {
@@ -155,11 +155,11 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding-top: 0px;
     text-align: center;
     color: #fff;
     /*background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/tourist.jpeg) no-repeat center scroll ;*/
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Airbnb-Etiquette1.jpg) no-repeat top scroll ;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/Airbnb-Etiquette1.jpg) no-repeat top scroll ;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -174,16 +174,23 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
+    
     font-size: 40px;
-    font-weight:400;
-    color:#ff5a60;
+    font-weight: 400;
+    color: #ff5a60;
     font-family:elsie;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 32px;
-    color:#fff;
+    font-size: 26px;
+    color: #000;
     text-align: center;
+}
+
+.around-title {
+    background-color: rgba(255,255,255,0.7);
+    padding: 90px 0 30px 0;
+    
 }
 
 @media(min-width:768px) {
@@ -192,8 +199,10 @@ a:focus {
         padding: 0;
     }
 
+
     .intro .intro-body .brand-heading {
         font-size: 80px;
+        padding: 0;
     }
 
     .intro .intro-body .intro-text {
@@ -213,6 +222,13 @@ a:focus {
         letter-spacing: 1px;
     }
 
+    .around-title {
+        /*padding: 30px;*/
+        
+        padding: 50px 0px;
+        /*margin-top: 45px;*/
+    }
+
 }
 
 .title-shade {
@@ -224,18 +240,41 @@ a:focus {
     color: #000;
 }
 
-.around-title {
-    background-color: rgba(0,0,0,0.7);
-    padding: 30px;
-}
+
 
 .under-intro {
     font-weight: 400;
 }
 
+.phone-preview {
+    width: 90%;
+    height: 90%;
+}
+
+.phone-side-preview {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+}
+
+@media(min-width:500px) {
+    .phone-preview {
+        width: 40%;
+        height: 40%;
+    }
+
+    .phone-side-preview {
+        
+        width: 30%;
+        height: 30%;
+    }
+
+
+}
+
 
 .switch {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .btn-circle {
@@ -243,10 +282,10 @@ a:focus {
     height: 50px;
     margin: 15px 0;
     padding: 7px 15px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 100%!important;
     font-size: 25px;
-    color: #fff;
+    color: #000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -333,6 +372,7 @@ a:focus {
 
 .download-section {
     width: 100%;
+    height: 100%;
     color: #fff;
     /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
     background: url(../img/9011116378_0ec5dc88c5_h.jpg) no-repeat center center scroll;
@@ -347,8 +387,8 @@ a:focus {
 .transparent {
     background:rgba(0,0,0,0.8);
     width:100%;
-    height:380px;
-        padding: 80px 0;
+    height:100%;
+    padding: 80px 0;
 
 }
 
@@ -359,13 +399,14 @@ a:focus {
     }
 
     .download-section {
+        height:100%;
     }
 
     .transparent {
         background:rgba(0,0,0,0.8);
         width:100%;
         height:100%;
-                padding: 100px 0;
+        padding: 100px 0;
 
     }   
 
@@ -416,6 +457,13 @@ a:focus {
     font-weight: 400;
     background-color: #ff5a60;
 }
+
+.btn-close {
+    margin: 5px;
+    text-align: right;
+
+}
+
 
 .btn-dark {
     border: 1px solid  #000;
