@@ -63,7 +63,7 @@ a:focus {
 }
 
 .fa {
-    color: #fff;
+    color: #000;
 }
 
 .light {
@@ -159,7 +159,7 @@ a:focus {
     text-align: center;
     color: #fff;
     /*background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/tourist.jpeg) no-repeat center scroll ;*/
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Airbnb-Etiquette1.jpg) no-repeat top scroll ;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/Airbnb-Etiquette1.jpg) no-repeat top scroll ;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -183,13 +183,13 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 26px;
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 
 .around-title {
-    background-color: rgba(0,0,0,0.7);
-    padding: 90px 30px 30px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 90px 0 30px 0;
     
 }
 
@@ -223,9 +223,9 @@ a:focus {
     }
 
     .around-title {
-        background-color: rgba(0,0,0,0.6);
         /*padding: 30px;*/
-        padding: 50px 20px;
+        
+        padding: 50px 0px;
         /*margin-top: 45px;*/
     }
 
@@ -274,7 +274,7 @@ a:focus {
 
 
 .switch {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .btn-circle {
@@ -282,10 +282,10 @@ a:focus {
     height: 50px;
     margin: 15px 0;
     padding: 7px 15px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 100%!important;
     font-size: 25px;
-    color: #fff;
+    color: #000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
